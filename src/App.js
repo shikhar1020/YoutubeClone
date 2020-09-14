@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          About to build a Youtube Clone!! Yehheye!!
         </a>
       </header>
     </div>
