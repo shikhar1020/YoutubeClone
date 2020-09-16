@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       
       <Header/>
-
-      
+      <div className="App_page">
+        
+      </div>
 
     </div>
   );
