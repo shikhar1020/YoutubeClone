@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
 
+import Header from "./header"
+
 function App() {
   return (
     <div className="App">
-      <h1>Going to build a Youtube clone!!Wooho!!</h1>
+      
+      <Header/>
+
+      
 
     </div>
   );
