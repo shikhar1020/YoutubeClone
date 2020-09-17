@@ -1,0 +1,41 @@
+.videoCard {
+    margin-bottom: 40px;
+    width: 270px;
+}
+
+
+.thumbnail {
+    height: 140px;
+    width: 250px;
+}
+
+.recommended_videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videoCard_info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.channel_avatar{
+    height: 30px !important;
+    width:30px !important;
+}
+
+.video_text{
+    margin-left: 10px;
+}
+
+.video_text > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+.video_text > p {
+    font-size: 14px;
+    color: rgb(51, 39, 39);
+}

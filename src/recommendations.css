@@ -1,6 +1,10 @@
-.Recommnedations{
+.recommnedations{
     flex: 0.8;
-    background-color: rgba(182, 177, 185, 0.151);
-    padding: 20px;
+    background-color: rgba(182, 176, 185, 0.151);
+    padding: 20px 20px; /*Top botto = 40px and left right =20px */
+    padding-bottom: 20px;
+    margin-left:5px;
+    margin-bottom:20px;
     /*border: 2px solid rgb(228, 224, 224);*/
 }
+
