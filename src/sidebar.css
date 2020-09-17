@@ -1,4 +1,28 @@
 .sidebar{
     flex: 0.2;
-    border: 1px solid rgb(228, 224, 224);
+    position: sticky;
+    /*border: 1px solid rgb(228, 224, 224);*/
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.moreFromYoutube{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10 px;
+    color: gray;
+}
+
+.sidebar_bottom{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
 }
