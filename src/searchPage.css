@@ -1,0 +1,24 @@
+.searchPage{
+    flex: 0.8;
+    background-color: rgba(182, 176, 185, 0.151);
+    padding: 20px 20px; /*Top botto = 40px and left right =20px */
+    padding-bottom: 20px;
+    margin-left:5px;
+    margin-bottom:20px;
+    /*border: 2px solid rgb(228, 224, 224);*/
+}
+
+.searchPage_filter{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.searchPage_filter > h4{
+    color:gray;
+    margin-left: 10px;
+}
+
+.searchPage_filterIcon{
+    color:gray;
+}
