@@ -3,24 +3,22 @@ import "./videoRow.css";
 
 import CheckCircleRoundedIcon from "@material-ui/icons/CheckCircleRounded";
 
-function videoRow(videoThumbnail, videoTitle, channelName, verified, views, timelapse, description) {
+function VideoRow ({videoThumbnail, videoTitle, channelName, verified, views, timelapse, description}) {
 
-    return <div className="VideoRow">
-        <div className="videoThumbnail">
-            {videoThumbnail}
+    return <div className="videoRow">
+        <img className="videoThumbnail" src={videoThumbnail} alt=""/>
+        <div className="videoDetails">
+            <h4 className="videoTitle">
+                {videoTitle}
+            </h4>
+            <p className="videoTitle">
+                {channelName} {verified && <CheckCircleRoundedIcon/>} {views} Views.{timelapse} hours ago
+            </p>
+            <p className="description">
+                {description}
+            </p>
         </div>
-        <h5 className="videoTitle">
-            {videoTitle}
-        </h5>
-        <p className="videoTitle">
-            {ChannelName}{verified} {views}Views.{timelapse} hours ago
-        </p>
-        <p className="description">
-            {description}
-        </p>
-
-
     </div>
 }
 
-export default videoRow
+export default VideoRow

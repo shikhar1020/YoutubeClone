@@ -2,10 +2,10 @@ import React from 'react'
 import './searchPage.css';
 
 import ChannelRow from "./channelRow";
-
+import VideoRow from "./videoRow";
 
 import TuneRoundedIcon from '@material-ui/icons/TuneRounded';
-import { VideoLibraryTwoTone } from '@material-ui/icons';
+
 
 function SearchPage() {
     return (
@@ -30,14 +30,54 @@ function SearchPage() {
 
             <h4 className="searchOutput">Latest from Shikhar Sangam</h4>
 
-            <videoRow
-                videoThumbnail
-                videoTitle
-                channelName
+            <VideoRow
+                videoThumbnail="https://i.pinimg.com/originals/f8/01/80/f801804bd7a593501049324280bd675e.jpg"
+                videoTitle ="Aasman ko chukar dekha, Taaron ki kar li sawari!!"
+                channelName ="Shikhar Sangam"
                 verified
-                views
-                timelapse
-                description
+                views = "255K"
+                timelapse ="3"
+                description = "Aasmaan ko chukar dekha Taron ke karli savari Chand per bhi nacche hum Ki Tofaano se yaari Pagalpan yeh kasia hai Kaam yeh jaisa taisa hai Sochti nazakat hai "
+            />
+
+            <VideoRow
+                videoThumbnail="https://i.pinimg.com/originals/f8/01/80/f801804bd7a593501049324280bd675e.jpg"
+                videoTitle ="Aasman ko chukar dekha, Taaron ki kar li sawari!!"
+                channelName ="Shikhar Sangam"
+                verified
+                views = "255K"
+                timelapse ="3"
+                description = "Aasmaan ko chukar dekha Taron ke karli savari Chand per bhi nacche hum Ki Tofaano se yaari Pagalpan yeh kasia hai Kaam yeh jaisa taisa hai Sochti nazakat hai "
+            />
+
+            <VideoRow
+                videoThumbnail="https://i.pinimg.com/originals/f8/01/80/f801804bd7a593501049324280bd675e.jpg"
+                videoTitle ="Aasman ko chukar dekha, Taaron ki kar li sawari!!"
+                channelName ="Shikhar Sangam"
+                verified
+                views = "255K"
+                timelapse ="3"
+                description = "Aasmaan ko chukar dekha Taron ke karli savari Chand per bhi nacche hum Ki Tofaano se yaari Pagalpan yeh kasia hai Kaam yeh jaisa taisa hai Sochti nazakat hai "
+            />
+
+            <VideoRow
+                videoThumbnail="https://i.pinimg.com/originals/f8/01/80/f801804bd7a593501049324280bd675e.jpg"
+                videoTitle ="Aasman ko chukar dekha, Taaron ki kar li sawari!!"
+                channelName ="Shikhar Sangam"
+                verified
+                views = "255K"
+                timelapse ="3"
+                description = "Aasmaan ko chukar dekha Taron ke karli savari Chand per bhi nacche hum Ki Tofaano se yaari Pagalpan yeh kasia hai Kaam yeh jaisa taisa hai Sochti nazakat hai "
+            />
+
+            <VideoRow
+                videoThumbnail="https://i.pinimg.com/originals/f8/01/80/f801804bd7a593501049324280bd675e.jpg"
+                videoTitle ="Aasman ko chukar dekha, Taaron ki kar li sawari!!"
+                channelName ="Shikhar Sangam"
+                verified
+                views = "255K"
+                timelapse ="3"
+                description = "Aasmaan ko chukar dekha Taron ke karli savari Chand per bhi nacche hum Ki Tofaano se yaari Pagalpan yeh kasia hai Kaam yeh jaisa taisa hai Sochti nazakat hai "
             />
 
         </div>

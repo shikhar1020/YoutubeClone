@@ -1,0 +1,31 @@
+.videoRow{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    /*align-items: center;*/
+    width: 80%;   
+}
+
+.videoThumbnail {
+    height: 140px;
+    width: 250px;
+}
+
+
+.videoDetails{
+    margin-left: 15px;
+}
+
+.videoTitle{
+    size: small !important;
+}
+
+.description{
+    margin-top:15px;
+}
+
+.videoDetails > p{
+    color: gray;
+    font-size: small !important;
+}
