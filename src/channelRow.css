@@ -1,0 +1,41 @@
+.channelRow{
+    display: flex;
+    align-items: center;
+    width: 70%;    
+}
+
+.channelRow_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow_text > p {
+    color: gray;
+    font-size: samll !important;
+}
+
+.channelRow_logo{
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.channelRow_text{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.channelRow_text > h4{
+    align-items: center;
+}
+
+.subscribersandvideos{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: small !important;
+}
+
+.description{
+    font-size: small !important;
+}
