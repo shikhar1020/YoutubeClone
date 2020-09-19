@@ -12,7 +12,7 @@ function VideoRow ({videoThumbnail, videoTitle, channelName, verified, views, ti
                 {videoTitle}
             </h4>
             <p className="videoTitle">
-                {channelName} {verified && <CheckCircleRoundedIcon/>} {views} Views.{timelapse} hours ago
+                {channelName} {verified && <CheckCircleRoundedIcon/>} {views} Views . {timelapse}
             </p>
             <p className="description">
                 {description}
