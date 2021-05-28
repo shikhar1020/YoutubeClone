@@ -3,15 +3,13 @@ To visit the live site visit [Youtube Clone](https://clone-c7710.web.app/)🚀 b
 
 ## **Preview**
 
-### `Sign In With Google`: Click on the "Sign In" Button to sign in with your Google Account.
-![image](https://user-images.githubusercontent.com/54438024/120001910-e7af9700-bff1-11eb-8c4e-c61f68e36bb3.png)
+### `Home Page`: View the home page as as we seen in Youtube.
+![image](https://user-images.githubusercontent.com/54438024/120010716-1847fe80-bffb-11eb-998e-af2146c19271.png)
 
-### `Add New Room`: Click on "Add New Chat+" Button to create your own room and chat with your friends.
-![image](https://user-images.githubusercontent.com/54438024/120003196-22fe9580-bff3-11eb-80a7-2409d78db2f6.png)
+### `Search Page`: Click on "Seach Icon"(magnifying glass) on the header to go to search page as we see in youtube.
+![image](https://user-images.githubusercontent.com/54438024/120010907-56452280-bffb-11eb-91f3-3c253baa4dde.png)
 
-### `Chat Page`: Wooho! Now you can chat with your friends and get a WhatsApp like experience.
-![image](https://user-images.githubusercontent.com/54438024/120002769-c4391c00-bff2-11eb-8d70-6ca2997638bc.png)
-
+**To get back to the home page from search page Click on the youtube image on the top left**
 
 
 ## Run on local PC 💻
