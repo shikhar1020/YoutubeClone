@@ -9,7 +9,8 @@ To visit the live site visit [Youtube Clone](https://clone-c7710.web.app/)🚀 b
 ### `Search Page`: Click on "Seach Icon"(magnifying glass) on the header to go to search page as we see in youtube.
 ![image](https://user-images.githubusercontent.com/54438024/120010907-56452280-bffb-11eb-91f3-3c253baa4dde.png)
 
-**To get back to the home page from search page Click on the youtube image on the top left**
+**To get back to the home page from search page Click on the youtube image on the top left of the header.**
+
 
 
 ## Run on local PC 💻
